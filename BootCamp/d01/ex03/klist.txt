@@ -1,0 +1,5 @@
+Credentials cache: API:2324E02B-3183-475C-862F-B79E3E2CA04C
+        Principal: tnyama@42.FR
+
+  Issued                Expires               Principal
+Apr  9 12:23:20 2018  Apr 16 12:23:15 2018  krbtgt/42.FR@42.FR

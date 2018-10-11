@@ -1,0 +1,8 @@
+# Map ou start et end sont la meme salle
+5
+##start
+1 1 1
+2 2 2
+##end
+1 1 1
+1-2
