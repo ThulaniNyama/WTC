@@ -1,0 +1,12 @@
+/******** SESSION *******
+*
+* The session class is a class to handle sessions:
+* It performs four basic operations: set, get, update and destroy
+* We can find 4 core methods:
+*		set($sessionName, $value), used to set a value
+*		get($sessionName), used to retrieve the value of a session
+*		update($sessionName, value), used to update the value of a session
+*		destroy($sessionName (it can be an array of vales)), used to destroy a session,
+*		exists($sessionName), used to check if a specific session is set,
+*
+*/

@@ -1,0 +1,11 @@
+/******** INFO *******
+*
+* Info class is a helper class used to retrieve micro data about posts
+* It extends the CRUD class
+* This class has four public functions:
+*		likes(postId), returns the number of likes of a post
+*		comments(postId), returns the list of all the comments of a post
+*		iLiked(postId, userId), returns a boolean value if an specific user liked a post or not
+*		auth(userId), returns the micro-information about the author or x-post, in a form an array [name, email, notification]
+*
+*/

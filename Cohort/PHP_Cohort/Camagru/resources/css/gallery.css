@@ -1,0 +1,181 @@
+main
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.photo
+{
+  width: calc((100% / 3) - 30px);
+  display: inline-block;
+  min-width: 300px;
+  box-shadow: 0 1px 2px lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: #ffffff;
+}
+
+.photo img
+{
+  cursor: pointer;
+}
+
+.photo .info
+{
+  padding: 15px 0;
+}
+
+.photo .info .icon
+{
+  margin-right: 20px;
+  font-size: 1.05em;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.icon-heart-o,
+.icon-heart
+{
+	color: #238DFA;
+}
+
+.icon-comment
+{
+	color:black;
+}
+
+.photo .info .icon span
+{
+  position: relative;
+  top: -3px;
+  margin-left: 5px;
+}
+
+.pagination
+{
+  text-align: center;
+  margin-top: 50px;
+}
+.pagination ul
+{
+  display: inline-block;
+}
+
+.pagination ul li{
+  float: left;
+  margin: 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.pagination ul li a
+{
+	display: inline-block;
+	border: 1px solid #238DFA;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: black;
+}
+
+.pagination ul li a.active
+{
+	color: #ffffff;
+	background: #238DFA;
+}
+
+.pagination ul li:hover span
+{
+  color: gray;
+}
+/*==================================
+  - COVER
+==================================*/
+.cover
+{
+  width: 100vW;
+  height: 100vh;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.icon-close-circled
+{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  color: #ffffff;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.cover .photo
+{
+  display: block;
+  margin: 30px auto;
+  width: 60%;
+  /* max-width: 100%; */
+  position: relative;
+}
+
+.cover .photo img
+{
+  width: 70%;
+  float: left;
+}
+
+.cover .photo .info
+{
+  float: right;
+  width: 30%;
+  max-height: 570px;
+  padding: 0 15px;
+  padding-right: 0;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.cover .photo .info .comments
+{
+  padding-top: 15px;
+  max-height: 570px;
+  overflow-y: auto;
+}
+.comments .comment
+{
+  font-size: .8em;
+  border-radius: 5px;
+  background: #cccccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.comment .date
+{
+  display: block;
+  font-size: .7em;
+  margin-top: 10px;
+  text-align: right;
+}
+.cover .photo form{
+  padding: 0;
+  margin: 0;
+  width: calc(30% - 17px);
+  right: 15px;
+  bottom: 13px;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.cover .photo form .input
+{
+  margin-bottom: 0;
+}
+
+.info a
+{
+	float: right;
+}

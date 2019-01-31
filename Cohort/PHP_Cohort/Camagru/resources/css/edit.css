@@ -1,0 +1,156 @@
+/*========================
+	- CAMERA SECTION -
+========================*/
+
+main .container{
+	padding-top: 100px;
+}
+.camara-section
+{
+	width: 70%;
+	max-width: 100%;
+	margin: 0 auto;;
+}
+canvas
+{
+	display: none;
+}
+
+video
+{
+	display: none;
+}
+.screen
+{
+	outline: 2px solid #ffffff;
+	background: #ffffff;
+	border: 2px solid #cccccc;
+	border-radius: 3px;
+	border-style: dashed;
+	min-height: 500px;
+	text-align: center;
+	vertical-align: bottom;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.screen img
+{
+	display: none;
+}
+
+canvas
+{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.screen .temp .btn .icon
+{
+	display: block;
+	font-size: 3.5em;
+	color: gray;
+}
+
+.screen .layer
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+}
+.option form
+{
+	display: none;
+}
+.option .btn
+{
+	margin-top: 25px;
+	font-size: .7em;
+	font-weight: normal;
+	cursor: pointer;
+	text-align: center;
+}
+.option .btn .icon
+{
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+	font-size: 25px;
+	color: gray;
+}
+
+.option .btn:last-child
+{
+	float: right;
+}
+/*========================
+	- TOOLS SECTION -
+========================*/
+.tools
+{
+	width: 25%;
+	height: 500px;
+	float: right;
+	padding: 30px 20px;
+	overflow: auto;
+	background: #238DFA;
+}
+
+.frames
+{
+	height: 70%;
+	width: 100%;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.frames img
+{
+	width: 10%;
+	height: 100px;
+	margin: 15px;;
+}
+
+.filters
+{
+	padding-top: 15px
+}
+.filters label
+{
+	color: #ffffff;
+	display: block;
+	margin-bottom: 15px;
+}
+.filters label input[type="range"]
+{
+	width: 100%;
+}
+
+#btnCapture{
+	visibility: hidden;
+}
+
+#btnSave
+{
+	float: right;
+	visibility: hidden;
+}
+
+.message-box
+{
+	margin-bottom: 25px;
+	display: none;
+}
+.message-box.success
+{
+	border-color: none;
+	background: black;
+	opacity: 25%;
+}

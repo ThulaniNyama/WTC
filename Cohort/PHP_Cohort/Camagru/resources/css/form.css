@@ -1,0 +1,62 @@
+form
+{
+  margin: 0 auto;
+  max-width: 450px;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 100px;
+  background: #ffffff;
+}
+form input,
+form .input
+{
+  margin: 15px 0;
+}
+form h2
+{
+  text-align: center;
+  margin: 0 0 50px 0;
+  font-family: pacifico;
+  font-size: 1.7em;
+  color: #238DFA;
+}
+
+form p
+{
+  text-align: center;
+}
+form a
+{
+  font-weight: bold;
+}
+
+.input-wrapper
+{
+  background: black;
+  border: none;
+  border-radius: 0px;
+  overflow: hidden;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.input-wrapper input
+{
+  border: none;
+  border-radius: 0;
+  width: calc(100% - 3.49em);
+  margin: 0;
+}
+
+.input-wrapper span.icon
+{
+  display: inline-block;
+  font-size: 100%;
+  width: 2em;
+  text-align: center;
+  font-size: 1.2em;
+  vertical-align: middle !important;
+  color: #cccccc;
+}

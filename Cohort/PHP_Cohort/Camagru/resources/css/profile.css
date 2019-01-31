@@ -1,0 +1,49 @@
+h1
+{
+	border-bottom: 1px solid lightgray;
+	margin-top: 50px;
+	padding-left: 25px;
+	padding-bottom: 10px
+}
+.left
+{
+	float: left;
+	width: 60%;
+}
+
+.left .btn
+{
+	margin: 15px 0;
+}
+.right
+{
+	float: right;
+	width: 35%;
+}
+
+.right .btn
+{
+	margin: 10px 25px ;
+}
+
+.notification
+{
+	display: inline-block;
+	padding: 25px;
+	margin-top: 25px;
+	font-size: 1.3em;
+}
+.notification #notification
+{
+	display: none;
+}
+
+#notification:checked + .icon-bell + .icon-bell-slash
+{
+	display: none;
+}
+
+.notification .icon
+{
+	margin-left: 20px;
+}

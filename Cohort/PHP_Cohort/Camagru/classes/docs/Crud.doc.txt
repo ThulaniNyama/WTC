@@ -1,0 +1,30 @@
+/******** CRUD *******
+*
+* Crud class is a class to perform four basic operations:
+* create, retrieve, update and delete.
+* This class extends the Db class, merely for connection with the database
+* The key methods (public) are:
+*  1. create(["table" => "table-name", "fields" => ["field1","field2",..], "values" => ["value1","value2",...]]);
+*		Used to create a new record and returns a static variable $lastInsertedId.
+*
+*  2. getAll(["table" => "table-name"]);
+*		Used to retrieve all the record from a table and returns a static variable $result.
+*
+*  3. getAllWhere(["table" => "table-name", "where" => ["field1" => "value1", "field2" => "value2", ...]]);
+*		Used to retrieve all the record from a table where field-x = value-x and returns a static variable $result.
+*
+*  3. update(["table" => "table-name", "set" => ["field1" => "value1", "field2" => "value2", ...], "where" => ["field1" => "value1", ..]]);
+*		Used to update records in a table where field-x = value-x.
+*
+*  3. delete(["table" => "table-name", "where" => ["field1" => "value1", ..]]);
+*		Used to delete records in a table where field-x = value-x, ....
+*
+*	4. query(SQL-QUERY);
+*		This one gives the user the ability to perform queries freely if the query is SELECT, it returns a static variable $result
+*
+*
+* Both methods getAll and getAllWhere, can be chained with this two, methods: first() and last()
+* Example: getAll(....)->first(), getAllWhere(...)->first()
+* 			  getAll(....)->last(), getAllWhere(...)->last()
+*
+*/

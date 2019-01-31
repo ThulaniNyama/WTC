@@ -1,0 +1,18 @@
+/******** VALIDATION *******
+*
+* The Validation class is used to check the requests from the form and make sure
+* that the inputs meet specific requirements
+*
+* This class has three main (public) methods: setRules(array of rules), validate(), requestExists()
+* 		"required" , if the field is required
+* 		"max: length in int" , max required length
+* 		"min: length in int" , min required length
+* 		"email" , if the field expect an email address
+* 		"password" , if the field expect an a password
+*		setRules([
+*			"input-mane1" => "Label|required|max:3"
+*			"input-mane2" => "Label|email"
+*		])->validate();
+* validate returns an array of errors if the fields value don meet the validation rules
+*
+*/

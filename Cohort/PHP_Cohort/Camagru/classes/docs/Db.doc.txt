@@ -1,0 +1,5 @@
+/******** DB *******
+*
+* Db class is a class to establish connection to the database
+*
+*/
