@@ -1,0 +1,134 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: Baloon#B3(3) registered to weather tower.
+Tower says: JetPlane#J1(4) registered to weather tower.
+Tower says: JetPlane#J2(5) registered to weather tower.
+Tower says: Helicopter#H1(6) registered to weather tower.
+Tower says: Helicopter#H2(7) registered to weather tower.
+Tower says: Helicopter#H3(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Baloon# B11 landing.
+Baloon#B1(1): There's a fog .
+Baloon#B3(3): There's a fog .
+JetPlane# J14 landing.
+JetPlane#J1(4): I am super soaking wet!
+Helicopter# H16 landing.
+Helicopter#H1(6): i am getting wet here!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I am burning!
+Baloon# B22 landing.
+Baloon#B2(2): Its rainy.
+JetPlane#J2(5): I am super soaking wet!
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am super soaking wet!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): It is sunny.
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): I am burning!
+Baloon#B3(3): It is sunny.
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): i am getting wet here!
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): Its rainy.
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): i am getting wet here!
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): I am burning!
+Baloon#B3(3): Its rainy.
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): It is sunny.
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I am burning!
+Baloon#B3(3): Its rainy.
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I am burning!
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): i am getting wet here!
+Baloon#B3(3): It is sunny.
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): i am getting wet here!
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am super soaking wet!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I am burning!
+Baloon#B3(3): There's a fog .
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): I cannot see because of the mist .
+Baloon# B33 landing.
+Baloon#B3(3): Its rainy.
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): I am burning!
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): i am getting wet here!
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): i am getting wet here!
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): i am getting wet here!
+Helicopter#H4(9): i am getting wet here!
+JetPlane#J2(5): I am baking here!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): I am burning!
+Helicopter#H4(9): I am burning!
+JetPlane#J2(5): I am super soaking wet!
+Helicopter#H2(7): I am burning!
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): i am getting wet here!
+JetPlane#J2(5): I cannot even see clearly
+Helicopter#H2(7): I cannot see because of the mist .
+Helicopter#H3(8): I cannot see because of the mist .
+Helicopter#H4(9): i am getting wet here!
