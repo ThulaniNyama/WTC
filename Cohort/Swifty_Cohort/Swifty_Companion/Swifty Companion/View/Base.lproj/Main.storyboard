@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lP0-7H-Cp3">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="BYZ-38-t0r" customClass="SearchViewController" customModule="Swifty_Companion_WTC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="rY0-uN-Pyk">
+                                <rect key="frame" x="0.0" y="51" width="375" height="603"/>
+                            </imageView>
+                            <searchBar alpha="0.90000000000000002" contentMode="center" searchBarStyle="prominent" text="" placeholder="Enter Username" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtB-xw-44K">
+                                <rect key="frame" x="60" y="194" width="255" height="56"/>
+                                <gestureRecognizers/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JtB-xw-44K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="GR0-Cu-u4C"/>
+                            <constraint firstItem="rY0-uN-Pyk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rlw-2q-gA0"/>
+                            <constraint firstItem="rY0-uN-Pyk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WKa-YB-CzX"/>
+                            <constraint firstItem="rY0-uN-Pyk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="v67-H9-Dxf"/>
+                            <constraint firstItem="JtB-xw-44K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="wDS-vD-OQx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JtB-xw-44K" secondAttribute="trailing" constant="60" id="wTs-aK-Alz"/>
+                            <constraint firstItem="rY0-uN-Pyk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wlb-n0-czw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XuE-Vt-VAa"/>
+                    <connections>
+                        <outlet property="searchBar" destination="JtB-xw-44K" id="NVu-ti-Ax9"/>
+                        <outlet property="searchDisplayController" destination="Faz-bw-SHa" id="VcL-US-9Mn"/>
+                        <segue destination="wTr-aH-0m5" kind="show" identifier="goToResult" id="6XD-Uc-fDJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Faz-bw-SHa">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="z10-bX-jJu"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="huI-rg-l1R"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="TLR-QO-eFW"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="hCm-eN-3ZP"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="544.79999999999995" y="636.4317841079461"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Tic-IX-mFn">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="wTr-aH-0m5" customClass="TabBarController" customModule="Swifty_Companion_WTC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" alpha="0.80000000000000004" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="centered" id="rmT-9s-Z2Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NDJ-HS-1sx" kind="relationship" relationship="viewControllers" id="aFR-0C-ayB"/>
+                        <segue destination="EA1-2u-AV7" kind="relationship" relationship="viewControllers" id="ZLC-l7-Ubg"/>
+                        <segue destination="YNB-ld-JYo" kind="relationship" relationship="viewControllers" id="AOi-wP-YD4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qkC-UC-hE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="636"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2NW-Np-P4U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lP0-7H-Cp3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" alpha="0.29999999999999999" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JNI-CI-AwK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AXE-UR-mOE">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="G5b-5e-38e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zjE-5X-px1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="637"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="qas-tp-D1d">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="NDJ-HS-1sx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" id="gHN-we-4s1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Off-P7-DSL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1936" y="549"/>
+        </scene>
+        <!--Skills-->
+        <scene sceneID="aym-IL-fX4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Skills" id="YNB-ld-JYo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Skills" id="XB4-Rz-0MI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjs-1X-8zx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1946" y="635"/>
+        </scene>
+        <!--Projects-->
+        <scene sceneID="fH2-Mi-q6M">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Projects" storyboardName="Projects" referencedIdentifier="Projects" id="EA1-2u-AV7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="I9j-FX-wRM" userLabel="Projects"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAN-kk-xLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1961" y="732"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="256" height="256"/>
+    </resources>
+</document>
